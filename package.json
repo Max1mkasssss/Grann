@@ -17,6 +17,7 @@
   "dependencies": {
     "body": "^5.1.0",
     "body-scroll-lock": "^4.0.0-beta.0",
+    "nanoid": "^5.0.7",
     "skroll": "^1.4.3",
     "swiper": "^10.0.4",
     "vite-plugin-full-reload": "^1.0.5",
