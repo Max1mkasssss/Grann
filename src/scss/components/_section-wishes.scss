@@ -1,0 +1,231 @@
+.container-wishes {
+  max-width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .container-wishes {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+}
+.section-wishes {
+  position: relative;
+  background: linear-gradient(
+      90deg,
+      rgba(0, 0, 0, 0.4) 9.29%,
+      rgba(0, 0, 0, 0) 97.8%
+    ),
+    url(../img/section-wishes/section-wishes-background.png) lightgray 50% /
+      cover no-repeat;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 564px;
+  width: 1340px;
+}
+@media (min-width: 375px) and (max-width: 480px) {
+  .section-wishes {
+    position: relative;
+    background: linear-gradient(
+        90deg,
+        rgba(0, 0, 0, 0.4) 9.29%,
+        rgba(0, 0, 0, 0) 97.8%
+      ),
+      url(../img/section-wishes/section-wishes-background-mobile.png) lightgray
+        50% / cover no-repeat;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 375px;
+    height: 807px;
+  }
+}
+@media (min-width: 1399px) {
+  .container-wishes {
+    margin-left: 150px;
+    margin-bottom: 120px;
+  }
+}
+
+.text-box {
+  width: 500px;
+  position: absolute;
+  top: 80px;
+  left: 100px;
+}
+@media (min-width: 375px) and (max-width: 480px){ 
+  .text-box {
+    padding: 10px;
+    padding-top: 55px;
+    width: 348px;
+    position: static;
+    // top: 55px;
+    // left: 10px;
+  }
+}
+.wishes-title {
+  width: 492.347px;
+  transform: rotate(-4.772deg);
+
+  color: #f5f7f8;
+  font-family: 'Patrick Hand', cursive;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+@media (min-width: 375px) and (max-width: 480px){ 
+  .wishes-title{ 
+    width: 348px;
+    transform: rotate(-4deg);
+
+    color: #F5F7F8;
+    font-family:'Patrick Hand', cursive;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
+}
+.wishes-description {
+  width: 393px;
+  color: #f5f7f8;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 130%;
+}
+@media (min-width: 375px) and (max-width: 480px){ 
+  .wishes-description{ 
+    max-width: 320px !important;
+    color: #F5F7F8;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 130%; 
+  }
+}
+// Input ---------------------
+.card {
+  position: absolute;
+  right: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  width: 499px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.group {
+  position: relative;
+}
+
+.form .group label {
+  font-size: 14px;
+  color: #f5eee0;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  transition: all 0.3s ease;
+  color: #705a66;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.form .group input,
+.form .group textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  outline: 0;
+  width: 100%;
+  color: #705a66;
+  background: #f5f7f8;
+}
+
+.form .group input:placeholder-shown + label,
+.form .group textarea:placeholder-shown + label {
+  top: 10px;
+  background-color: transparent;
+}
+
+.form .group input:focus,
+.form .group textarea:focus {
+  border-color: #f5eee0;
+}
+
+.form .group input:focus + label,
+.form .group textarea:focus + label {
+  top: -10px;
+  left: 10px;
+  color: #705a66;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.form .group input {
+  height: 60px;
+}
+.form .group textarea {
+  resize: none;
+  height: 180px;
+}
+
+.form button {
+  background-color: #f5eee0;
+  color: #705a66;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #705a66;
+  text-align: center;
+  font-family: 'Montserrat';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  height: 67px;
+}
+
+.form button:hover {
+  background-color: #e0d5c1;
+}
+
+@media (min-width: 375px) and (max-width: 480px){ 
+  .card{ 
+    position: static;
+    border-radius: 10px;
+    padding: 10px;
+    width: 355px;
+    display: flex;
+    flex-direction: column;
+  }
+  .form .group label{ 
+    color: #705A66;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+  }
+}
+// Input ---------------------
