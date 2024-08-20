@@ -22,7 +22,7 @@
 
   <!-- Animate AOS -->
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-  <link rel="stylesheet" href="/Grann/assets/main-e3b0c442.css">
+  <link rel="stylesheet" href="/Grann/assets/main-43e67fbc.css">
 </head>
 
 <body>
@@ -31,18 +31,115 @@
 
   <h2></h2>
   
-  <!-- Сюди ж додати картинку  -->
   
-  
-  
-  
-  
+  <!-- ENOENT: no such file or directory, open '/home/runner/work/Grann/Grann/src/partials/section-why_grann.html'
+  ENOENT: no such file or directory, open '/home/runner/work/Grann/Grann/src/partials/section-delivery_and_payments.html'
+  ENOENT: no such file or directory, open '/home/runner/work/Grann/Grann/src/partials/section-about_me.html' -->
+  <div class="container-wishes">
+    <section class="section-wishes">
+
+        <div class="text-box">
+            <h2 class="wishes-title">
+                Давайте зробимо щось унікальне разом!
+            </h2>
+            <span class="wishes-description">
+                Ви можете замовити свій власний рецепт десерту, який вам буде до вподоби. Заповніть заявку та я зв’яжусь
+                з вами, аби обговорити деталі замовлення.
+            </span>
+        </div>
+
+        <div class="card">
+            <form class="form">
+                <div class="group">
+                    <input placeholder="" type="text" required="">
+                    <label for="name">Ім'я</label>
+                </div>
+                <div class="group">
+                    <input placeholder="" type="tel" id="email" name="tel" required="">
+                    <label for="tel">Номер телефону</label>
+                </div>
+                <div class="group">
+                    <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                    <label for="comment">Опишіть ваші побажання</label>
+                </div>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+
+    </section>
+</div>
+  <div class="section-faq-container">
+    <section class="section-faq">
+        <h2 class="faq-title">
+            Популярні запитання
+        </h2>
+        <div class="text-block">
+            <ul class="faq-list">
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>СКІЛЬКИ ЧАСУ ПОТРІБНО ДЛЯ ВИГОТОВЛЕННЯ ЗАМОВЛЕННЯ?</span>
+                        <img class="arrow" src="../img/section-faq/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Для виготовлення вашого замовлення нам потрібно від 3 до 4 днів. Ми рекомендуємо замовляти завчасно, щоб забезпечити найкращу якість і свіжість нашої продукції.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>ЧИ Є У ВАС ДОСТАВКА?</span>
+                        <img class="arrow" src="../img/section-faq/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Так, ми здійснюємо доставку. Замовлення потрібно зробити заздалегідь, щоб ми могли організувати доставку вчасно і зручно для вас.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>ЧИ ГОТУЄТЕ ВИ ТОРТИ З МАСТИКИ?</span>
+                        <img class="arrow" src="../img/section-faq/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Так, ми готуємо торти з мастики. Наші майстри створять для вас унікальний дизайн і забезпечать неперевершений смак.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>ЧИ МОЖНА ЇСТИ ВАШІ ТОРТИ ДІТЯМ ТА ВАГІТНИМ?</span>
+                        <img class="arrow" src="../img/section-faq/arrow.svg" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Наші торти виготовляються з якісних і безпечних інгредієнтів, тому їх можна їсти як дітям, так і вагітним жінкам. Ми дбаємо про ваше здоров'я і задоволення.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+  <div class="container-instagram">
+    <h2 class="instagram">Instagram</h2>
+    <div class="grid flex">
+        <img src="../img/section-instagram/first-cake.png" alt="cake">
+        <img src="../img/section-instagram/second-cake.png" alt="cake">
+        <img src="../img/section-instagram/third-cake.png" alt="cake">
+        <img src="../img/section-instagram/fourth-cake.png" alt="cake">
+        <img src="../img/section-instagram/fifth-cake.png" alt="cake">
+        <img src="../img/section-instagram/woomen.png" alt="woomen">
+    </div>
+    <div class="inst-wrapper">
+
+
+        <div class="button-section-instagram flex">
+           <button class="inst-button"> Завітати на сторінку</button>
+        </div>
+    </div>
+</div>
   
   
 
 
   <script src="./js/index.js"></script>
   <script src="./js/modal.js"></script>
+  <script src="./js/dropdown.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
