@@ -254,6 +254,17 @@ template {
     justify-content: center;
   }
 }
+.cakes-container {
+  width: 90%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.cakes__items__one img {
+  width: 605px;
+  height: 253px;
+  flex-shrink: 0;
+}
 .section-faq-container {
   width: 1028px;
   margin: 0 auto;
