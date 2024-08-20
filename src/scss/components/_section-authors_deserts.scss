@@ -6,11 +6,33 @@
 
 .cakes {
     &__items {
+        position: absolute;
         &__one {
             img {
                 width: 605px;
                 height: 253px;
                 flex-shrink: 0;
+            }
+            &__btn{
+                width: 276px;
+                position: relative;
+                bottom: 60px;
+                height: 67px;
+height: 67px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F5EEE0;
+span{
+    color: #705A66;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
             }
         }
 
@@ -20,6 +42,27 @@
                 height: 253px;
                 flex-shrink: 0;
             }
+            &__btn{
+                width: 276px;
+                position: relative;
+                bottom: 60px;
+                height: 67px;
+height: 67px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F5EEE0;
+span{
+    color: #705A66;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+            }
         }
 
         &__three {
@@ -28,6 +71,27 @@
                 height: 253px;
                 flex-shrink: 0;
             }
+            &__btn{
+                width: 276px;
+                position: relative;
+                left: 150px;
+                bottom: 60px;
+height: 67px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F5EEE0;
+span{
+    color: #705A66;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
+            }
         }
 
         &__four {
@@ -35,6 +99,27 @@
                 width: 605px;
                 height: 253px;
                 flex-shrink: 0;
+            }
+            &__btn{
+                width: 276px;
+                position: relative;
+                bottom: 60px;
+                height: 67px;
+height: 67px;
+flex-shrink: 0;
+border-radius: 10px;
+background: #F5EEE0;
+span{
+    color: #705A66;
+
+text-align: center;
+font-family: Montserrat;
+font-size: 24px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+text-transform: uppercase;
+}
             }
         }
     }

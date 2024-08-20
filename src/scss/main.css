@@ -260,25 +260,108 @@ template {
   margin: 0 auto;
 }
 
+.cakes__items {
+  position: absolute;
+}
 .cakes__items__one img {
   width: 605px;
   height: 253px;
   flex-shrink: 0;
+}
+.cakes__items__one__btn {
+  width: 276px;
+  position: relative;
+  bottom: 60px;
+  height: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F5EEE0;
+}
+.cakes__items__one__btn span {
+  color: #705A66;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .cakes__items__two img {
   width: 605px;
   height: 253px;
   flex-shrink: 0;
 }
+.cakes__items__two__btn {
+  width: 276px;
+  position: relative;
+  bottom: 60px;
+  height: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F5EEE0;
+}
+.cakes__items__two__btn span {
+  color: #705A66;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
 .cakes__items__three img {
   width: 605px;
   height: 253px;
   flex-shrink: 0;
 }
+.cakes__items__three__btn {
+  width: 276px;
+  position: relative;
+  left: 150px;
+  bottom: 60px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F5EEE0;
+}
+.cakes__items__three__btn span {
+  color: #705A66;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
 .cakes__items__four img {
   width: 605px;
   height: 253px;
   flex-shrink: 0;
+}
+.cakes__items__four__btn {
+  width: 276px;
+  position: relative;
+  bottom: 60px;
+  height: 67px;
+  height: 67px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #F5EEE0;
+}
+.cakes__items__four__btn span {
+  color: #705A66;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
 }
 
 .section-faq-container {
