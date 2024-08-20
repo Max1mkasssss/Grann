@@ -282,7 +282,7 @@ img {
   margin-top: 20px;
   width: 780px;
   height: 113px;
-  background: url(../img/section-instagram/decoration.svg);
+  background: url(./img/section-instagram/decoration.svg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: contain;
@@ -327,7 +327,7 @@ img {
 }
 .section-wishes {
   position: relative;
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 9.29%, rgba(0, 0, 0, 0) 97.8%), url(../img/section-wishes/section-wishes-background.png) lightgray 50%/cover no-repeat;
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 9.29%, rgba(0, 0, 0, 0) 97.8%), url(https://i.ibb.co/r3Rnqz4/section-wishes-background.png) lightgray 50%/cover no-repeat;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -338,7 +338,7 @@ img {
 @media (min-width: 375px) and (max-width: 480px) {
   .section-wishes {
     position: relative;
-    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 9.29%, rgba(0, 0, 0, 0) 97.8%), url(../img/section-wishes/section-wishes-background-mobile.png) lightgray 50%/cover no-repeat;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 9.29%, rgba(0, 0, 0, 0) 97.8%), url(https://i.ibb.co/jk9jvmW/section-wishes-background-mobile.png) lightgray 50%/cover no-repeat;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
