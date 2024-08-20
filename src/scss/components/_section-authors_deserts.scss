@@ -14,10 +14,28 @@
             }
         }
 
-        &__two {}
+        &__two {
+            img {
+                width: 605px;
+                height: 253px;
+                flex-shrink: 0;
+            }
+        }
 
-        &__three {}
+        &__three {
+            img {
+                width: 605px;
+                height: 253px;
+                flex-shrink: 0;
+            }
+        }
 
-        &__four {}
+        &__four {
+            img {
+                width: 605px;
+                height: 253px;
+                flex-shrink: 0;
+            }
+        }
     }
 }

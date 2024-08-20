@@ -265,6 +265,22 @@ template {
   height: 253px;
   flex-shrink: 0;
 }
+.cakes__items__two img {
+  width: 605px;
+  height: 253px;
+  flex-shrink: 0;
+}
+.cakes__items__three img {
+  width: 605px;
+  height: 253px;
+  flex-shrink: 0;
+}
+.cakes__items__four img {
+  width: 605px;
+  height: 253px;
+  flex-shrink: 0;
+}
+
 .section-faq-container {
   width: 1028px;
   margin: 0 auto;
