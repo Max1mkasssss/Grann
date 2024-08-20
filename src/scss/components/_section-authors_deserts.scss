@@ -1,0 +1,23 @@
+.cakes-container {
+    width: 90%;
+    border: 1px solid red;
+    margin: 0 auto;
+}
+
+.cakes {
+    &__items {
+        &__one {
+            img {
+                width: 605px;
+                height: 253px;
+                flex-shrink: 0;
+            }
+        }
+
+        &__two {}
+
+        &__three {}
+
+        &__four {}
+    }
+}
