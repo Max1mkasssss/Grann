@@ -177,6 +177,7 @@ template {
 }
 .footer {
   background: #705A66;
+  padding-bottom: 90px;
 }
 
 .footer__content {
@@ -201,6 +202,8 @@ template {
 
 .footer__logo {
   padding-top: 88px;
+  margin: 0 auto;
+  display: flex;
 }
 
 .footer__logo-image {
@@ -211,6 +214,7 @@ template {
 .footer__image {
   width: 34px;
   height: 34px;
+  margin-bottom: 32px;
 }
 
 .footer__socials {
@@ -223,13 +227,14 @@ template {
   gap: 40px;
 }
 
-.footer__info-links {
+.footer__info-link {
   text-decoration: none;
   color: inherit;
   padding-left: 0;
+  transition: all 0.3s ease;
 }
-.footer__info-links:hover {
-  color: #3e51b8;
+.footer__info-link:hover {
+  color: #1e1e20;
 }
 
 @media (max-width: 760px) {
