@@ -55,8 +55,14 @@
 }
 
 .footer__info-links{
+    text-decoration: none;
+    color: inherit;
     padding-left: 0;
+    &:hover{
+        color: #3e51b8;
+    }
 }
+
 
 @media (max-width: 760px) {
     .footer__social-list {
