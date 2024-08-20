@@ -165,6 +165,16 @@ template {
   display: flex;
 }
 
+.footer__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+@media (min-width: 1600px) {
+  .footer__container {
+    width: 1600px;
+  }
+}
 .footer {
   background: #705A66;
 }
