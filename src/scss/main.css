@@ -165,6 +165,70 @@ template {
   display: flex;
 }
 
+.footer {
+  background: #705A66;
+}
+
+.footer__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info {
+  padding-left: 0;
+  padding-top: 164px;
+}
+
+.footer__info-item {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 21.94px;
+  color: #F5F7F8;
+  opacity: 0.4;
+  padding: 10px 0;
+}
+
+.footer__logo {
+  padding-top: 88px;
+}
+
+.footer__logo-image {
+  width: 255px;
+  height: 201px;
+}
+
+.footer__socials {
+  padding-top: 144px;
+}
+
+.footer__social-list {
+  padding-left: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.footer__info-links {
+  padding-left: 0;
+}
+
+@media (max-width: 760px) {
+  .footer__social-list {
+    gap: 20px;
+  }
+}
+@media (max-width: 680px) {
+  .footer__content {
+    display: block;
+    text-align: center;
+  }
+  .footer__logo {
+    justify-content: center;
+  }
+  .footer__social-list {
+    justify-content: center;
+  }
+}
 .section-faq-container {
   width: 1028px;
   margin: 0 auto;
