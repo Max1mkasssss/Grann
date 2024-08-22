@@ -177,29 +177,6 @@ flex-shrink: 0;
                 flex-shrink: 0;
             }
 
-            &__btn {
-                width: 276px;
-                position: relative;
-                left: 150px;
-                bottom: 50px;
-                height: 67px;
-                border: #F5EEE0;
-                flex-shrink: 0;
-                border-radius: 10px;
-                background: #F5EEE0;
-
-                span {
-                    color: #705A66;
-
-                    text-align: center;
-                    font-family: Montserrat;
-                    font-size: 24px;
-                    font-style: normal;
-                    font-weight: 300;
-                    line-height: normal;
-                    text-transform: uppercase;
-                }
-            }
         }
 
         &__four {
@@ -237,7 +214,74 @@ flex-shrink: 0;
         }
     }
 }
-
+.cssbuttons-io-button {
+    background: #F5EEE0;
+    color:  #705A66;
+    font-family: inherit;
+    padding: 0.35em;
+    padding-left: 1.2em;
+    font-size: 17px;
+    font-weight: 500;
+    width: 300px;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-transform: uppercase;
+                position: relative;
+                left: 150px;
+                bottom: 50px;
+                height: 67px;
+                border: #F5EEE0;
+                flex-shrink: 0;
+                border-radius: 10px;
+    justify-content: center;
+    border: none;
+    letter-spacing: 0.05em;
+    display: flex;
+    align-items: center;
+    box-shadow: inset 0 0 1.6em -0.6em #F5EEE0;
+    overflow: hidden;
+    position: relative;
+    padding-right: 3.3em;
+    cursor: pointer;
+  }
+  
+  .cssbuttons-io-button .icon {
+    background:  #705A66;
+    margin-left: 1em;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 2.2em;
+    width: 2.2em;
+    border-radius: 0.7em;
+    box-shadow: 0.1em 0.1em 0.6em 0.2em #F5EEE0;
+    right: 0.3em;
+    transition: all 0.3s;
+  }
+  
+  .cssbuttons-io-button:hover .icon {
+    width: calc(100% - 0.6em);
+  }
+  
+  .cssbuttons-io-button .icon svg {
+    width: 1.1em;
+    transition: transform 0.3s;
+    color:#F5EEE0;
+  }
+  
+  .cssbuttons-io-button:hover .icon svg {
+    transform: translateX(0.1em);
+  }
+  
+  .cssbuttons-io-button:active .icon {
+    transform: scale(0.95);
+  }
+  
 .bestseller-container {
     width: 100%;
     // border: 1px solid red;
