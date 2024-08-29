@@ -1,3 +1,150 @@
 .productPage{
   display: none;
 }
+.container {
+  display: flex;
+}
+
+.photo-slider {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  width: 499px;
+  height: 629px;
+}
+
+.main-photo {
+  margin-bottom: 20px;
+}
+
+.main-photo img {
+  width: 499px;
+  height: 522px;
+}
+
+.thumbnails-slider {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+}
+
+.thumbnails {
+  display: flex;
+  overflow: hidden;
+  width: 300px;
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  width: 100px;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.thumbnail:hover {
+  transform: scale(1.1);
+}
+
+.arrow {
+  cursor: pointer;
+  font-size: 24px;
+  color: black;
+  padding-top: 12px;
+  user-select: none;
+  justify-content: right;
+}
+
+
+.dropdown-container {
+  margin-top: 10px;
+  margin-right: 32px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+}
+
+.dropdown-btn {
+  width: 288px;
+  height: 60px;
+  background-image: url(/src/img/product-page/Rectangle29.png);
+  border: none;
+  cursor: pointer;
+  border-radius: 10px 10px 0px 0px;
+  box-sizing: border-box;
+  color: #705A66;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+  padding: 0px 70px 0px 0px;
+  padding: 10px 30px;
+}
+
+.dropdown-btn:active {
+  border-radius: 0;
+}
+.dropdown-btn .arrow {
+  position: absolute;
+  padding-top: 0;
+
+  transition: transform 0.3s ease;
+}
+
+.dropdown-btn-text {
+  font-size: 18px;
+  text-align: left;
+}
+
+.dropdown-list {
+  margin-top: 0;
+  width: 288px;
+  font-size: 18px;
+  display: none;
+  list-style-type: none;
+  padding: 0;
+  background-color: #F5EEE0;
+
+}
+
+.dropdown-list li {
+  padding: 5px 0px 5px 25px;
+
+}
+
+.dropdown-list li:last-child {
+  border-bottom: none;
+}
+
+.dropdown-list li:hover {
+  background-color: #f1e4c9;
+  cursor: pointer;
+}
+
+h1 {
+  color: #705A66;
+  font-family: 'Montserrat';
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.buy-container {
+  width: 650px;
+  height: 522px;
+  margin-left: 32px;
+}
+
+.list-list {
+  color: #705A66;
+  font-family: 'Montserrat';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
