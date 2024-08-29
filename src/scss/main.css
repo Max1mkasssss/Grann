@@ -1249,4 +1249,7 @@ img {
     font-weight: 300;
     line-height: normal;
   }
+}
+.productPage {
+  display: none;
 }/*# sourceMappingURL=main.css.map */
