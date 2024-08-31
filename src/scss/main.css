@@ -1251,7 +1251,7 @@ img {
   }
 }
 .productPage {
-  display: block;
+  display: none;
 }
 
 .container {
@@ -1302,6 +1302,10 @@ img {
 }
 
 .arrow {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: none;
   cursor: pointer;
   font-size: 24px;
   color: black;
@@ -1341,7 +1345,7 @@ select {
   border-radius: 0;
 }
 
-.dropdown-btn .arrow {
+.dropdown-btn {
   position: absolute;
   padding-top: 0;
   transition: transform 0.3s ease;
