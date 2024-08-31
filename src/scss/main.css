@@ -1251,7 +1251,7 @@ img {
   }
 }
 .productPage {
-  display: none;
+  display: block;
 }
 
 .container {
@@ -1285,12 +1285,13 @@ img {
 .thumbnails {
   display: flex;
   overflow: hidden;
-  width: 300px;
+  width: 255pxpx;
 }
 
 .thumbnail {
   flex-shrink: 0;
-  width: 100px;
+  width: 75px;
+  height: 75px;
   margin: 0 5px;
   cursor: pointer;
   transition: transform 0.3s ease;
@@ -1319,17 +1320,17 @@ img {
   align-items: flex-start;
 }
 
-.dropdown-btn {
-  width: 288px;
+select {
+  width: 335px;
   height: 60px;
-  background-image: url(/src/img/product-page/Rectangle29.png);
   border: none;
   cursor: pointer;
   border-radius: 10px 10px 0px 0px;
   box-sizing: border-box;
-  color: #705A66;
-  font-family: "Montserrat";
+  background: #F5EEE0;
+  font-family: Montserrat;
   font-size: 18px;
+  font-style: normal;
   font-weight: 300;
   line-height: normal;
   padding: 0px 70px 0px 0px;
@@ -1384,7 +1385,7 @@ h1 {
 }
 
 .buy-container {
-  width: 650px;
+  width: 739px;
   height: 522px;
   margin-left: 32px;
 }
