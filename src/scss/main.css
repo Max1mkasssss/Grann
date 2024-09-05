@@ -1285,7 +1285,7 @@ img {
 .thumbnails {
   display: flex;
   overflow: hidden;
-  width: 255pxpx;
+  width: 255px;
 }
 
 .thumbnail {
@@ -1401,4 +1401,4 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}/*# sourceMappingURL=main.css.map */
+}
