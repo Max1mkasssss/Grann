@@ -655,7 +655,7 @@ body {
     font-size: 18px;
   }
   .cakes-container__items__two {
-    padding-left: 120px;
+    padding-left: 121px;
   }
   .cakes-container__items__two img {
     width: 355px;
@@ -1285,7 +1285,7 @@ img {
 .thumbnails {
   display: flex;
   overflow: hidden;
-  width: 255px;
+  width: 255pxpx;
 }
 
 .thumbnail {
@@ -1401,4 +1401,4 @@ h1 {
   font-style: normal;
   font-weight: 300;
   line-height: normal;
-}
+}/*# sourceMappingURL=main.css.map */
