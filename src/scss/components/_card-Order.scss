@@ -1,1 +1,95 @@
-/* Стилі для Card Order*/
+:root {
+    --background: #D5D0E0; 
+    --backgound-card: #F5EEE0; 
+    --text-color-maroon: #705A66;
+    --text-color-black: #252525;
+    --radio-buttons-black: #161616
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--background-card);
+}
+
+
+.container{
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.section-3 {
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: var(--radio-buttons-black);
+    margin-bottom: 32px;
+}
+
+.delivery-method {
+    display: block;
+    margin: 10px 0;
+
+}
+
+.delivery-method{
+    margin-top: 5px;
+    
+}
+
+input[type="radio"]{
+    accent-color: var(--text-color-black);
+    background-color: var(--backgound-card);
+}
+.opening-menu {
+    margin-top: 61px;
+
+}
+
+.opening-menu-heading {
+    font-size: 16;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: var(--backgound-card);
+    color: var(--text-color-maroon);
+
+}
+
+.delivery-cards {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2,196px);
+    
+}
+
+.delivery-card {
+    border-radius: 5px;
+    background-color: var(--backgound-card);
+    border: none;
+    width: 182px;
+    height: 60px;
+    padding-left: 20px;
+}
+
+.delivery-card::placeholder {
+    font-size: 14px;
+    color: #b29586;
+    cursor: pointer;
+    border: none;
+}
