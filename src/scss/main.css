@@ -533,9 +533,6 @@ body {
   display: flex;
   margin-left: 1200px;
 }
-.bestseller__items__arrow button {
-  border: none;
-}
 .bestseller__items__arrow img {
   width: 76px;
   height: 27px;
