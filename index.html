@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Gra</title>
+  <title>Grann</title>
 
   <!-- Website Icon  -->
   <link rel="website icon" href="logo">
@@ -228,6 +228,105 @@
   <!-- верстка section-why_grann(сворюємо не всю верстку,а лише вставляємо свою частину) -->
   <!-- верстка section-delivery_and_payments(сворюємо не всю верстку,а лише вставляємо свою частину) -->
   <!-- верстка section-about_me(сворюємо не всю верстку,а лише вставляємо свою частину) -->
+  <div class="container-wishes">
+    <section class="section-wishes">
+
+        <div class="text-box">
+            <h2 class="wishes-title">
+                Давайте зробимо щось унікальне разом!
+            </h2>
+            <span class="wishes-description">
+                Ви можете замовити свій власний рецепт десерту, який вам буде до вподоби. Заповніть заявку та я зв’яжусь
+                з вами, аби обговорити деталі замовлення.
+            </span>
+        </div>
+
+        <div class="card">
+            <form class="form">
+                <div class="group">
+                    <input placeholder="" type="text" required="">
+                    <label for="name">Ім'я</label>
+                </div>
+                <div class="group">
+                    <input placeholder="" type="tel" id="email" name="tel" required="">
+                    <label for="tel">Номер телефону</label>
+                </div>
+                <div class="group">
+                    <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                    <label for="comment">Опишіть ваші побажання</label>
+                </div>
+                <button type="submit">Надіслати</button>
+            </form>
+        </div>
+
+    </section>
+</div>
+  <div class="section-faq-container">
+    <section class="section-faq">
+        <h2 class="faq-title">
+            Популярні запитання
+        </h2>
+        <div class="text-block">
+            <ul class="faq-list">
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>СКІЛЬКИ ЧАСУ ПОТРІБНО ДЛЯ ВИГОТОВЛЕННЯ ЗАМОВЛЕННЯ?</span>
+                        <img class="arrow" src="https://i.postimg.cc/6QmSXssv/Arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Для виготовлення вашого замовлення нам потрібно від 3 до 4 днів. Ми рекомендуємо замовляти завчасно, щоб забезпечити найкращу якість і свіжість нашої продукції.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>ЧИ Є У ВАС ДОСТАВКА?</span>
+                        <img class="arrow" src="https://i.postimg.cc/6QmSXssv/Arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Так, ми здійснюємо доставку. Замовлення потрібно зробити заздалегідь, щоб ми могли організувати доставку вчасно і зручно для вас.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>ЧИ ГОТУЄТЕ ВИ ТОРТИ З МАСТИКИ?</span>
+                        <img class="arrow" src="https://i.postimg.cc/6QmSXssv/Arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Так, ми готуємо торти з мастики. Наші майстри створять для вас унікальний дизайн і забезпечать неперевершений смак.</p>
+                    </div>
+                </li>
+                <li class="faq-list-item">
+                    <div class="dropdown-header" onclick="toggleDropdown(this)">
+                        <span>ЧИ МОЖНА ЇСТИ ВАШІ ТОРТИ ДІТЯМ ТА ВАГІТНИМ?</span>
+                        <img class="arrow" src="https://i.postimg.cc/6QmSXssv/Arrow.png" alt="arrow">
+                    </div>
+                    <div class="dropdown-content">
+                        <p>Наші торти виготовляються з якісних і безпечних інгредієнтів, тому їх можна їсти як дітям, так і вагітним жінкам. Ми дбаємо про ваше здоров'я і задоволення.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>
+</div>
+  <div class="container-instagram">
+    <h2 class="instagram">Instagram</h2>
+    <div class="grid flex">
+        <img src="https://i.ibb.co/d5zpj1d/first-cake.png" alt="cake">
+        <img src="https://i.ibb.co/VwjksKx/second-cake.png" alt="cake">
+        <img src="https://i.ibb.co/LZ1DGH4/third-cake.png" alt="cake">
+        <img src="https://i.ibb.co/PrtLY0f/fourth-cake.png" alt="cake">
+        <img src="https://i.ibb.co/3kf6NqP/fifth-cake.png" alt="cake">
+        <img src="https://i.ibb.co/vD3DSmx/woomen.png" alt="woomen">
+    </div>
+    <div class="inst-wrapper">
+
+
+        <div class="button-section-instagram flex">
+           <button class="inst-button"> Завітати на сторінку</button>
+        </div>
+    </div>
+</div>
+
   <!DOCTYPE html>
 <html lang="uk">
 
