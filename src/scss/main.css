@@ -512,94 +512,7 @@ body {
   transform: scale(0.95);
 }
 
-.bestseller-container {
-  width: 100%;
-  margin: 0 auto;
-  background-color: #eff1f2;
-}
-
-.bestseller__items__title {
-  color: #705A66;
-  font-family: Moniqa;
-  font-size: 100px;
-  font-style: normal;
-  font-weight: 900;
-  line-height: normal;
-  text-align: center;
-}
-.bestseller__items__arrow {
-  gap: 32px;
-  margin-top: 4px;
-  display: flex;
-  margin-left: 1200px;
-}
-.bestseller__items__arrow img {
-  width: 76px;
-  height: 27px;
-}
-.bestseller__items__cards {
-  gap: 32px;
-  margin-left: 200px;
-  margin-top: 63px;
-}
-.bestseller__items__cards__one img {
-  width: 393px;
-  height: 393px;
-}
-.bestseller__items__cards__one__text .text {
-  padding-top: 20px;
-  width: 288px;
-}
-.bestseller__items__cards__one__text .text h5 {
-  color: #705A66;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
-.bestseller__items__cards__one__text .text p {
-  color: #705A66;
-  font-family: Montserrat;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-}
-.bestseller__items__cards__one__text .busket {
-  margin-top: 20px;
-  margin-left: 75px;
-}
-.bestseller__items__cards__one__text .busket button {
-  border: #F5EEE0;
-}
-.bestseller__items__cards__one__text .busket img {
-  width: 30px;
-  height: 30px;
-}
-.bestseller__items__btn {
-  width: 604px;
-  height: 67px;
-  flex-shrink: 0;
-  border-radius: 10px;
-  background: #F5EEE0;
-  border: none;
-  color: #705A66;
-  text-align: center;
-  font-family: Montserrat;
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  text-transform: uppercase;
-  justify-content: center;
-  margin: 0 auto;
-  display: block;
-  margin-top: 88px;
-  margin-bottom: 120px;
-}
-
-@media ((min-width: 480px) and (max-width: 844px)) {
+@media (min-width: 480px) and (max-width: 844px) {
   .authors-container {
     width: 800px;
   }
@@ -693,42 +606,6 @@ body {
     width: 276px;
     left: 150px;
     bottom: 50px;
-  }
-  .bestseller-container {
-    width: 800px;
-  }
-  .bestseller__items__title {
-    padding-left: 5px;
-    font-size: 110px;
-  }
-  .bestseller__items__arrow {
-    display: none;
-  }
-  .bestseller__items__cards {
-    gap: 24px;
-    flex-direction: column;
-    margin-left: 20px;
-  }
-  .bestseller__items__cards__one img {
-    width: 750px;
-    height: 600px;
-  }
-  .bestseller__items__cards__one__text .text {
-    padding-top: 20px;
-    width: 600px;
-  }
-  .bestseller__items__cards__one__text .text h5 {
-    font-size: 30px;
-  }
-  .bestseller__items__cards__one__text .text p {
-    font-size: 25px;
-  }
-  .bestseller__items__btn {
-    width: 355px;
-    font-size: 18px;
-    margin-left: 100px;
-    margin-top: 68px;
-    margin-bottom: 120px;
   }
 }
 @media (max-width: 480px) {
@@ -829,12 +706,65 @@ body {
     left: 150px;
     bottom: 50px;
   }
+}
+.bestseller-container {
+  width: 480px;
+}
+
+.bestseller__items__title {
+  padding-left: 50px;
+  font-size: 80px;
+}
+.bestseller__items__arrow {
+  display: none;
+}
+.bestseller__items__arrow__leftBtn {
+  border-radius: 22px;
+}
+.bestseller__items__cards {
+  gap: 24px;
+  flex-direction: column;
+  margin-left: 90px;
+}
+.bestseller__items__cards__one img {
+  width: 393px;
+  height: 393px;
+}
+.bestseller__items__cards__one__text .text {
+  padding-top: 20px;
+  width: 288px;
+}
+.bestseller__items__cards__one__text .text h5 {
+  font-size: 18px;
+}
+.bestseller__items__cards__one__text .text p {
+  font-size: 16px;
+}
+.bestseller__items__cards__one__text .busket {
+  margin-top: 20px;
+  margin-left: 75px;
+}
+.bestseller__items__cards__one__text .busket img {
+  width: 30px;
+  height: 30px;
+}
+.bestseller__items__btn {
+  width: 355px;
+  font-size: 18px;
+  margin-left: 100px;
+  margin-top: 68px;
+  margin-bottom: 120px;
+}
+
+@media (min-width: 480px) and (max-width: 844px) {
   .bestseller-container {
-    width: 480px;
+    width: 800px;
   }
+}
+@media (max-width: 480px) {
   .bestseller__items__title {
-    padding-left: 50px;
-    font-size: 80px;
+    padding-left: 5px;
+    font-size: 110px;
   }
   .bestseller__items__arrow {
     display: none;
@@ -842,32 +772,21 @@ body {
   .bestseller__items__cards {
     gap: 24px;
     flex-direction: column;
-    margin-left: 90px;
+    margin-left: 20px;
   }
   .bestseller__items__cards__one img {
-    width: 393px;
-    height: 393px;
+    width: 750px;
+    height: 600px;
   }
   .bestseller__items__cards__one__text .text {
     padding-top: 20px;
-    width: 288px;
+    width: 600px;
   }
   .bestseller__items__cards__one__text .text h5 {
-    font-size: 18px;
+    font-size: 30px;
   }
   .bestseller__items__cards__one__text .text p {
-    font-size: 16px;
-  }
-  .bestseller__items__cards__one__text .busket {
-    margin-top: 20px;
-    margin-left: 75px;
-  }
-  .bestseller__items__cards__one__text .busket button {
-    border: #F5EEE0;
-  }
-  .bestseller__items__cards__one__text .busket img {
-    width: 30px;
-    height: 30px;
+    font-size: 25px;
   }
   .bestseller__items__btn {
     width: 355px;
@@ -1008,7 +927,6 @@ img {
   height: 67px;
   border-radius: 10px;
   background: #F5EEE0;
-  border: none;
   color: #705A66;
   text-align: center;
   font-family: "Montserrat";
