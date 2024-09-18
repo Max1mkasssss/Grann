@@ -28,18 +28,54 @@
         <section class="section-3">
             <div class="container">
                 <h2 class="h2">Спосіб доставки</h2>
-                <Label>
-                    <input class="delivery-method" type="radio" name="delivery"
-                    value="Самовивіз з Печерського р-ну, м. Київ.">
+                <label class="radio-label">
+                    <input class="delivery-method" type="radio" name="delivery" value="Самовивіз з Печерського р-ну, м. Київ.">
+                    <span class="radio-svg">
+                        <span class="radio-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <circle cx="10" cy="10.5" r="10" fill="#F5EEE0" />
+                            </svg>
+                        </span>
+                        <span class="radio-active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                <circle cx="5" cy="5.5" r="5" fill="#705A66" />
+                            </svg>
+                        </span>
+                    </span>
                     Самовивіз з Печерського р-ну, м. Київ.
-                </Label>
-                <label>
-                    <input class="delivery-method" type="radio" name="delivery"
-                    value="На таксі (за тарифами служби таксі)" checked>
-                    На таксі (за тарифами служби таксі) 
                 </label>
-                    <details class="opening-menu">
-                    <summary class="opening-menu-heading">Місто</summary>
+                <label class="radio-label">
+                    <input class="delivery-method" type="radio" name="delivery" value="На таксі (за тарифами служби таксі)" checked>
+                    <span class="radio-svg">
+                        <span class="radio-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <circle cx="10" cy="10.5" r="10" fill="#F5EEE0" />
+                            </svg>
+                        </span>
+                        <span class="radio-active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                <circle cx="5" cy="5.5" r="5" fill="#705A66" />
+                            </svg>
+                        </span>
+                    </span>
+                    На таксі (за тарифами служби таксі)
+                </label>
+                <details class="opening-menu">
+                    <summary class="opening-menu-heading">
+                        Місто
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none"
+                            class="icon-opening">
+                            <path
+                                d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7L7 8L9 8L9 7L7 7Z"
+                                fill="#705A66" />
+                        </svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="9" viewBox="0 0 16 9" fill="none"
+                            class="icon-closing">
+                            <path
+                                d="M7.29289 8.70711C7.68342 9.09763 8.31658 9.09763 8.70711 8.70711L15.0711 2.34315C15.4616 1.95262 15.4616 1.31946 15.0711 0.928932C14.6805 0.538408 14.0474 0.538408 13.6569 0.928932L8 6.58579L2.34315 0.928932C1.95262 0.538408 1.31946 0.538408 0.928932 0.928932C0.538408 1.31946 0.538408 1.95262 0.928932 2.34315L7.29289 8.70711ZM7 7L7 8L9 8L9 7L7 7Z"
+                                fill="#705A66" />
+                        </svg>
+                    </summary>
                     <ul class="delivery-cards">
                         <li><input class="delivery-card" type="text" placeholder="Вулиця"></li>
                         <li><input class="delivery-card" type="text" placeholder="Під’їзд"></li>
@@ -54,10 +90,41 @@
         <section class="section-4">
             <div class="container">
                 <h2 class="h2">Спосіб оплати</h2>
-                <input class="paying-method" type="radio" name="pay" placeholder="Готівка" checked>
-                <input class="paying-method" type="radio" name="pay" placeholder="Liqpay">
-                <textarea class="comment" placeholder="Додати коментар" name="" id="" cols="30"
-                    rows="10"></textarea>
+                <label class="radio-label">
+                    <input class="payment-method" type="radio" name="payment" value="Готівка">
+                    <span class="radio-svg">
+                        <span class="radio-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <circle cx="10" cy="10.5" r="10" fill="#F5EEE0" />
+                            </svg>
+                        </span>
+                        <span class="radio-active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                <circle cx="5" cy="5.5" r="5" fill="#705A66" />
+                            </svg>
+                        </span>
+                    </span>
+                    Готівка
+                </label>
+                <label class="radio-label">
+                    <input class="payment-method" type="radio" name="payment" value="Liqpay" checked>
+                    <span class="radio-svg">
+                        <span class="radio-bg">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" viewBox="0 0 20 21" fill="none">
+                                <circle cx="10" cy="10.5" r="10" fill="#F5EEE0" />
+                            </svg>
+                        </span>
+                        <span class="radio-active">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="11" viewBox="0 0 10 11" fill="none">
+                                <circle cx="5" cy="5.5" r="5" fill="#705A66" />
+                            </svg>
+                        </span>
+                    </span>
+                    Liqpay
+                </label>
+                <div class="textarea-box">
+                    <textarea class="comment" placeholder="Додати коментар" name="" id="" cols="30" rows="10"></textarea>
+                </div>
             </div>
         </section>
         <section class="secion-5">
