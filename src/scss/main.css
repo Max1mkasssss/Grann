@@ -723,7 +723,6 @@ body {
 }
 .bestseller__items__cards {
   gap: 24px;
-  flex-direction: column;
   margin-left: 90px;
 }
 .bestseller__items__cards__one img {
