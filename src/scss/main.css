@@ -715,13 +715,16 @@ body {
   color: #705A66;
 }
 .bestseller__items__arrow {
-  display: none;
+  display: flex;
   flex-direction: row-reverse;
   -moz-column-gap: 32px;
        column-gap: 32px;
   height: 27px;
+  margin-right: 189PX;
 }
-.bestseller__items__arrow__leftBtn {
+.bestseller__items__arrow__btn {
+  width: 76px;
+  height: 27px;
   border-radius: 22px;
 }
 .bestseller__items__cards {
@@ -814,6 +817,14 @@ body {
     margin-bottom: 120px;
   }
 }
+.arrowImg {
+  height: 100%;
+}
+
+.rightBtn {
+  background: #F5EEE0;
+}
+
 .section-faq-container {
   width: 1028px;
   margin: 0 auto;

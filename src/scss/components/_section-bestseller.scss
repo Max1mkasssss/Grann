@@ -9,11 +9,14 @@
     }
 
     &__arrow {
-      display: none;
+      display: flex;
       flex-direction: row-reverse;
       column-gap: 32px;
       height: 27px;
-      &__leftBtn {
+      margin-right: 189PX;
+      &__btn {
+        width: 76px;
+        height: 27px;
         border-radius: 22px;
       }
     }
@@ -132,4 +135,10 @@
       }
     }
   }
+}
+.arrowImg{
+  height: 100%;
+}
+.rightBtn{
+  background: #F5EEE0;
 }
