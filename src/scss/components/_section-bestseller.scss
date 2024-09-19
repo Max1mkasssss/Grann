@@ -1,8 +1,5 @@
 .bestseller {
   &__items {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     &__title {
       font-family: "Alumni Sans";
       font-size: 100px;
@@ -13,6 +10,9 @@
 
     &__arrow {
       display: none;
+      flex-direction: row-reverse;
+      column-gap: 32px;
+      height: 27px;
       &__leftBtn {
         border-radius: 22px;
       }
@@ -63,6 +63,7 @@
       width: 604px;
       height: 67px;
       font-size: 18px;
+      margin: 0 auto;
       margin-top: 68px;
       margin-bottom: 120px;
       border: none;

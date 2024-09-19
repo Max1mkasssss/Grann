@@ -707,11 +707,6 @@ body {
     bottom: 50px;
   }
 }
-.bestseller__items {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 .bestseller__items__title {
   font-family: "Alumni Sans";
   font-size: 100px;
@@ -721,6 +716,10 @@ body {
 }
 .bestseller__items__arrow {
   display: none;
+  flex-direction: row-reverse;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  height: 27px;
 }
 .bestseller__items__arrow__leftBtn {
   border-radius: 22px;
@@ -762,6 +761,7 @@ body {
   width: 604px;
   height: 67px;
   font-size: 18px;
+  margin: 0 auto;
   margin-top: 68px;
   margin-bottom: 120px;
   border: none;
