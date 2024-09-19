@@ -707,8 +707,13 @@ body {
     bottom: 50px;
   }
 }
+.bestseller__items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .bestseller__items__title {
-  font-family: Alumni Sans;
+  font-family: "Alumni Sans";
   font-size: 100px;
   font-weight: 600;
   text-align: center;
@@ -721,8 +726,9 @@ body {
   border-radius: 22px;
 }
 .bestseller__items__cards {
-  gap: 24px;
-  margin-left: 90px;
+  -moz-column-gap: 32px;
+       column-gap: 32px;
+  justify-content: center;
 }
 .bestseller__items__cards__one img {
   width: 393px;
@@ -742,16 +748,30 @@ body {
   margin-top: 20px;
   margin-left: 75px;
 }
+.bestseller__items__cards__one__text .busket__button {
+  border: none;
+}
 .bestseller__items__cards__one__text .busket img {
   width: 30px;
   height: 30px;
 }
 .bestseller__items__btn {
-  width: 355px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 604px;
+  height: 67px;
   font-size: 18px;
-  margin-left: 100px;
   margin-top: 68px;
   margin-bottom: 120px;
+  border: none;
+  background: #F5EEE0;
+  border-radius: 10px;
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 300;
+  color: #705A66;
+  cursor: pointer;
 }
 
 @media (min-width: 480px) and (max-width: 844px) {

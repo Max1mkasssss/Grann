@@ -1,7 +1,10 @@
 .bestseller {
   &__items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     &__title {
-      font-family: Alumni Sans;
+      font-family: "Alumni Sans";
       font-size: 100px;
       font-weight: 600;
       text-align: center;
@@ -16,8 +19,8 @@
     }
 
     &__cards {
-      gap: 24px;
-      margin-left: 90px;
+      column-gap: 32px;
+      justify-content: center;
       &__one {
         img {
           width: 393px;
@@ -41,8 +44,9 @@
           .busket {
             margin-top: 20px;
             margin-left: 75px;
-
-
+            &__button{
+              border: none;
+            }
             img {
               width: 30px;
               height: 30px;
@@ -53,11 +57,22 @@
     }
 
     &__btn {
-      width: 355px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 604px;
+      height: 67px;
       font-size: 18px;
-      margin-left: 100px;
       margin-top: 68px;
       margin-bottom: 120px;
+      border: none;
+      background: #F5EEE0;
+      border-radius: 10px;
+      font-family: "Montserrat";
+      font-size: 24px;
+      font-weight: 300;
+      color: #705A66;
+      cursor: pointer;
     }
   }
 }
