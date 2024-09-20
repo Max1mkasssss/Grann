@@ -1,1 +1,197 @@
-/* Стилі для Card Order*/
+:root {
+    --background: #D5D0E0;
+    --backgound-card: #F5EEE0;
+    --text-color-maroon: #705A66;
+    --text-color-black: #252525;
+    --radio-buttons-black: #161616
+  }
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #F5F7F8;
+  }
+  
+  
+  .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .section-3 {
+    padding: 20px 0;
+  }
+  
+  .h2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+    line-height: 23.4px;
+    color: var(--radio-buttons-black);
+    margin-bottom: 32px;
+  }
+  
+  .radio-label {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: var(--radio-buttons-black);
+  }
+  
+  .radio-label input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-svg {
+    display: inline-block;
+    position: relative;
+    margin-right: 10px;
+    width: 20px;
+    height: 21px;
+  }
+  
+  .radio-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .radio-active {
+    position: absolute;
+    top: 2px;
+    left: 5px;
+    display: none;
+  }
+  
+  .radio-active:hover {
+    transition: 0.3s ease;
+    transform: scale(1.1);
+  }
+  
+  .radio-label input[type="radio"]:checked+.radio-svg .radio-active {
+    display: block;
+  }
+  
+  .opening-menu {
+    margin-top: 48px;
+    cursor: pointer;
+    margin-bottom: -13px;
+  }
+  
+  .opening-menu-heading {
+    list-style-position: inside;
+    font-size: 16;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--backgound-card);
+    color: var(--text-color-maroon);
+    width: 394px;
+  }
+  
+  .delivery-cards {
+    list-style: none;
+    padding: 10px 0;
+    margin: 0;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: repeat(2, 196px);
+  
+  }
+  
+  .delivery-card {
+    border-radius: 10px;
+    background-color: var(--backgound-card);
+    border: none;
+    width: 182px;
+    height: 60px;
+    padding-left: 20px;
+  }
+  
+  .delivery-card::placeholder {
+    font-size: 14px;
+    color: #b29586;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .opening-menu-heading {
+    display: flex;
+    justify-content: space-between;
+    list-style-position: inside;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: var(--backgound-card);
+    color: var(--text-color-maroon);
+    width: 394px;
+    align-items: center;
+  }
+  
+  .icon-opening {
+    transition: transform 0.3s ease;
+    transform: rotate(-90deg);
+  }
+  
+  .icon-opening:hover {
+    transition: 0.3s ease;
+    transform: scale(2.1);
+  }
+  
+  .icon-closing {
+    transition: transform 0.3s ease;
+    display: none;
+  }
+  
+  .icon-closing:hover {
+    transition: 0.3s ease;
+    transform: scale(2.1) rotate(-90deg);
+    display: none;
+  }
+  
+  details[open] .icon-opening {
+    display: none;
+  }
+  
+  details[open] .icon-closing {
+    display: inline-block;
+  }
+  
+  input:focus {
+    outline: none;
+    border: none;
+  }
+  
+  .comment {
+    background-color: #F5EEE0;
+    border: none;
+    margin-left: 30px;
+    margin-top: 19px;
+  }
+  
+  .comment:focus {
+    right: 30px;
+    bottom: 19px;
+    outline: none;
+    border: none;
+  }
+  
+  textarea {
+    resize: none;
+  }
+  
+  .textarea-box {
+    background-color: #F5EEE0;
+    width: 499px;
+    height: 200px;
+  }
