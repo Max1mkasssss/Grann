@@ -723,9 +723,16 @@ body {
   margin-right: 189PX;
 }
 .bestseller__items__arrow__btn {
+  display: flex;
   width: 76px;
   height: 27px;
   border-radius: 22px;
+  align-items: center;
+  justify-content: center;
+}
+.bestseller__items__arrow__btn__img {
+  width: auto;
+  height: auto;
 }
 .bestseller__items__cards {
   -moz-column-gap: 32px;
