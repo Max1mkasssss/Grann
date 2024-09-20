@@ -1,0 +1,50 @@
+
+.flex {
+  display: flex;
+}
+
+.header {
+  background-color: #F5EEE0;
+  margin: -15px;
+  width: 1535px;
+  height: 145px;
+
+}
+
+.header-list {
+  gap: 118px;
+  margin-left: 100px;
+}
+
+.header_list__item-img {
+  margin-left: 157px;
+  margin-right: 52px;
+}
+
+.header_list__item-img-2 {
+  margin-left: -42px;
+}
+
+.header-list__item {
+  padding-top: 55px;
+}
+
+
+.header_list__item-img {
+  margin-top: -35px;
+}
+
+.header-list__item-link {
+  position: static;
+  width: 93px;
+  height: 19px;
+  color: rgb(112, 90, 102);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.7;
+}
